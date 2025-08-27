@@ -1,0 +1,47 @@
+{
+  "cloudflareAccess": {
+    "enabled": false,
+    "adminPaths": ["/admin", "/admin/*"],
+    "allowedEmails": [],
+    "sessionDuration": "24h"
+  },
+  "rateLimiting": {
+    "enabled": true,
+    "requests": 100,
+    "windowMs": 900000,
+    "skipSuccessfulRequests": false,
+    "skipFailedRequests": false
+  },
+  "csp": {
+    "defaultSrc": ["'self'"],
+    "scriptSrc": ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
+    "styleSrc": ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
+    "fontSrc": ["'self'", "https://fonts.gstatic.com"],
+    "imgSrc": ["'self'", "data:", "https:"],
+    "connectSrc": ["'self'"],
+    "mediaSrc": ["'self'"],
+    "objectSrc": ["'none'"],
+    "frameSrc": ["'none'"],
+    "baseUri": ["'self'"],
+    "formAction": ["'self'"]
+  },
+  "cors": {
+    "allowedOrigins": ["https://your-domain.com"],
+    "allowedMethods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    "allowedHeaders": ["Content-Type", "Authorization", "X-Requested-With"],
+    "credentials": true,
+    "maxAge": 86400
+  },
+  "headers": {
+    "xFrameOptions": "DENY",
+    "xContentTypeOptions": "nosniff",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "permissionsPolicy": "camera=(), microphone=(), geolocation=()",
+    "hsts": {
+      "enabled": true,
+      "maxAge": 31536000,
+      "includeSubDomains": true,
+      "preload": true
+    }
+  }
+}
