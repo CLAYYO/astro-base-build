@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Base Website System - Modern Web Management",
+    "description": "A powerful, secure, and scalable website management system built with Astro and Cloudflare Workers. Perfect for modern web development.",
+    "keywords": "website management, astro, cloudflare workers, cms, web development, modern web",
+    "author": "Base Website System",
+    "robots": "index, follow",
+    "canonical": "https://your-domain.com",
+    "language": "en"
+  },
+  "openGraph": {
+    "type": "website",
+    "title": "Base Website System - Modern Web Management",
+    "description": "A powerful, secure, and scalable website management system built with Astro and Cloudflare Workers.",
+    "url": "https://your-domain.com",
+    "siteName": "Base Website System",
+    "image": "https://your-domain.com/media/images/og-image.jpg",
+    "imageAlt": "Base Website System Logo",
+    "locale": "en_US"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "@yourtwitterhandle",
+    "creator": "@yourtwitterhandle",
+    "title": "Base Website System - Modern Web Management",
+    "description": "A powerful, secure, and scalable website management system built with Astro and Cloudflare Workers.",
+    "image": "https://your-domain.com/media/images/twitter-card.jpg",
+    "imageAlt": "Base Website System Logo"
+  },
+  "structured": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Base Website System",
+    "url": "https://your-domain.com",
+    "description": "A powerful, secure, and scalable website management system built with Astro and Cloudflare Workers.",
+    "author": {
+      "@type": "Organization",
+      "name": "Base Website System",
+      "url": "https://your-domain.com"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://your-domain.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  },
+  "verification": {
+    "google": "",
+    "bing": "",
+    "yandex": "",
+    "pinterest": ""
+  },
+  "analytics": {
+    "googleAnalytics": "",
+    "googleTagManager": "",
+    "facebookPixel": ""
+  }
+}
